@@ -11,9 +11,9 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 // Import images
 import bgimg1 from "../assets/image/Alpha Community.png";
-import bgimg2 from "../assets/image/accepted_image.jpg";
-import bgimg3 from "../assets/image/recentPerformance10.jpg";
-import bgimg4 from "../assets/image/recentPerformance9.jpg";
+import bgimg2 from "../assets/image/banner4.png";
+import bgimg3 from "../assets/image/Banner2.png";
+import bgimg4 from "../assets/image/banner1.png";
 
 // Slide data
 const allSlides = [
@@ -26,7 +26,7 @@ const allSlides = [
 
 const Banner = () => {
     return (
-        <div className='w-full mt-16'>
+        <div className='w-full mt-2 md:mt-10 lg:mt-20'>
             <Swiper
                 className='w-full text-center overflow-hidden'
                 slidesPerView={1}

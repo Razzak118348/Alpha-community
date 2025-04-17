@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className='container mx-auto px-4 py-3 flex justify-between items-center'>
                 {/* Logo */}
                 <div className='flex items-center gap-2'>
-                    <img className='h-8 w-auto' src={logo} alt='Rock Brand Logo' />
+                    <img className='h-10 w-auto' src={logo} alt='Rock Brand Logo' />
                     <Link to='/' className='font-extrabold text-xl tracking-widest text-red-500 hover:text-white transition-all duration-200'>
                         Alpha Community
                     </Link>
