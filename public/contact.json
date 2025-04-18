@@ -4,21 +4,21 @@
       "name": "Mohammad ibn Salam",
       "email": "mohammadibnsalam123@gmail.com",
       "phone": "01763-221567",
-      "image": "/src/assets/image/convenor.jpg"
+      "image": "/assets/image/convenor.jpg"
     },
     {
       "role": "Member Secretary",
       "name": "Mahfuzur Rahman Rakib",
       "email": "rakibmahfuz143@gmail.com",
       "phone": "+8801703-281708",
-      "image": "/src/assets/image/secretary.jpg"
+      "image": "/assets/image/secretary.jpg"
     },
     {
       "role": "Member Secretary",
       "name": "Azizur Rahman",
       "email": "azizur.rahman7207@gmail.com",
       "phone": "01319682317",
-      "image": "/src/assets/image/secretary2.jpg"
+      "image": "/assets/image/secretary2.jpg"
     }
   ]
   

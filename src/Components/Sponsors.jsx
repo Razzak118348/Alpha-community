@@ -8,23 +8,23 @@ const Sponsors = () => {
             <div className="space-y-4 text-lg font-medium">
                 <div className="flex justify-between border-b border-gray-600 pb-2">
                     <span className="text-red-400">Title Sponsor</span>
-                    <span className="text-green-400">1,20,000 BDT</span>
+                    <span className="text-green-400">1,50,000 BDT</span>
                 </div>
                 <div className="flex justify-between border-b border-gray-600 pb-2">
                     <span className="text-red-300">Co-Sponsor</span>
-                    <span className="text-green-400">80,000 BDT</span>
+                    <span className="text-green-400">1,00,000 BDT</span>
                 </div>
                 <div className="flex justify-between border-b border-gray-600 pb-2">
                     <span className="text-orange-300">Golden Sponsor</span>
-                    <span className="text-green-400">40,000 BDT</span>
+                    <span className="text-green-400">50,000 BDT</span>
                 </div>
                 <div className="flex justify-between border-b border-gray-600 pb-2">
                     <span className="text-gray-300">Silver Sponsor</span>
-                    <span className="text-green-400">25,000 BDT</span>
+                    <span className="text-green-400">30,000 BDT</span>
                 </div>
                 <div className="flex justify-between border-b border-gray-600 pb-2">
                     <span className="text-pink-300">Food Stall</span>
-                    <span className="text-green-400">20,000 BDT</span>
+                    <span className="text-green-400">15,000 BDT</span>
                 </div>
             </div>
         </div>

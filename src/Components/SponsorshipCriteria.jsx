@@ -3,13 +3,13 @@ import 'aos/dist/aos.css';
 
 
 
-import  { useEffect } from "react";
+import { useEffect } from "react";
 
 const SponsorshipCriteria = () => {
 
-useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, []);
 
     return (
         <div
@@ -30,11 +30,13 @@ useEffect(() => {
                     <p className="mb-4">The name will be promoted as <strong>TITLE SPONSOR</strong> and placed in every publicity material:</p>
                     <ul className="list-disc list-inside space-y-1 text-sm text-gray-200">
                         <li>Backdrop</li>
-                        <li>LED Backdrop</li>
+                        <li>LED Backdrop (1st class advertisements on led)</li>
                         <li>Poster</li>
                         <li>Banner</li>
                         <li>Ticket</li>
                         <li>Media Coverage</li>
+                        <li>Full time Projection </li>
+                        <li>Stall</li>
                     </ul>
                 </div>
 
@@ -52,7 +54,7 @@ useEffect(() => {
                     </ul>
                 </div>
 
-                {/* Diamond Sponsor */}
+                {/*
                 <div className="bg-zinc-900 p-6 rounded-lg border border-purple-500 shadow-inner" data-aos="fade-right">
                     <h3 className="text-xl font-semibold text-purple-300 mb-4">💠 DIAMOND SPONSOR</h3>
                     <p className="mb-4">The name will be promoted as <strong>DIAMOND SPONSOR</strong> and placed in every publicity material:</p>
@@ -63,7 +65,7 @@ useEffect(() => {
                         <li>Media Coverage</li>
                         <li>Projection in the Show</li>
                     </ul>
-                </div>
+                </div> */}
 
                 {/* Golden Sponsor */}
                 <div className="bg-zinc-900 p-6 rounded-lg border border-yellow-500 shadow-inner" data-aos="fade-left">
@@ -73,6 +75,7 @@ useEffect(() => {
                         <li>Backdrop</li>
                         <li>Poster</li>
                         <li>Banner</li>
+                        <li>Ticket</li>
                         <li>Media Coverage</li>
                         <li>Projection in the Show</li>
                     </ul>
@@ -86,8 +89,9 @@ useEffect(() => {
                         <li>Backdrop</li>
                         <li>Poster</li>
                         <li>Banner</li>
+                        <li>Ticket</li>
                         <li>Media Coverage</li>
-                        <li>Projection in the Show</li>
+
                     </ul>
                 </div>
 
@@ -99,7 +103,7 @@ useEffect(() => {
                         <li>Backdrop</li>
                         <li>Banner</li>
                         <li>Media Coverage</li>
-                        <li>Projection in the Show</li>
+
                     </ul>
                 </div>
             </div>

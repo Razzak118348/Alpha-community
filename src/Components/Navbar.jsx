@@ -6,8 +6,8 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <header className='bg-black text-white fixed top-0 w-full z-20 shadow-md '>
-            <div className='container mx-auto px-4 py-3 flex justify-between items-center'>
+        <header className='bg-black text-white fixed top-0 w-full z-20 shadow-md overflow-x-hidden'>
+            <div className='w-full max-w-screen-xl mx-auto px-4 py-3 flex justify-between items-center'>
                 {/* Logo */}
                 <div className='flex items-center gap-2'>
                     <img className='h-10 w-auto' src={logo} alt='Rock Brand Logo' />
@@ -57,12 +57,20 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             {isMenuOpen && (
-                <div className='md:hidden bg-black text-white shadow-lg'>
+                <div className='md:hidden w-full bg-black text-white shadow-lg'>
                     <ul className='flex flex-col gap-4 px-6 py-4 text-sm font-semibold'>
-                        <li><Link to='/' onClick={() => setIsMenuOpen(false)} className='hover:text-red-500 transition duration-200'>Home</Link></li>
-                        <li><Link to='/about' onClick={() => setIsMenuOpen(false)} className='hover:text-red-500 transition duration-200'>About Us</Link></li>
-                        <li><Link to='/events' onClick={() => setIsMenuOpen(false)} className='hover:text-red-500 transition duration-200'>Events</Link></li>
-                        <li><Link to='/contact' onClick={() => setIsMenuOpen(false)} className='hover:text-red-500 transition duration-200'>Contact</Link></li>
+                        <li>
+                            <Link to='/' onClick={() => setIsMenuOpen(false)} className='hover:text-red-500 transition duration-200'>Home</Link>
+                        </li>
+                        <li>
+                            <Link to='/about' onClick={() => setIsMenuOpen(false)} className='hover:text-red-500 transition duration-200'>About Us</Link>
+                        </li>
+                        <li>
+                            <Link to='/events' onClick={() => setIsMenuOpen(false)} className='hover:text-red-500 transition duration-200'>Events</Link>
+                        </li>
+                        <li>
+                            <Link to='/contact' onClick={() => setIsMenuOpen(false)} className='hover:text-red-500 transition duration-200'>Contact</Link>
+                        </li>
                     </ul>
                 </div>
             )}

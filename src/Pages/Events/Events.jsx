@@ -64,6 +64,32 @@ const Events = () => {
                     ))}
                 </div>
             </div>
+
+            <h1 className="text-2xl mt-10 md:mt-16  md:text-4xl font-bold text-center mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-red-600">
+                    🍽️ Alpha community Iftar  Party in 2025
+                </h1>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                {[
+                    "alphaIftar1.jpg",
+                    "alphaIftar2.jpg",
+                    "alphaIftar3.jpg",
+                    "alphaIftar4.jpg",
+                ].map((img, index) => (
+                    <div
+                        key={index}
+                        className="overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+                        data-aos="zoom-in"
+                        data-aos-delay={index * 100}
+                    >
+                        <img
+                            src={`/assets/image/${img}`}
+                            alt={`Performance ${index + 1}`}
+                            className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
+                        />
+                    </div>
+                ))}
+            </div>
+
         </div>
     );
 };

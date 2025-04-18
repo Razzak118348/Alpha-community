@@ -14,6 +14,7 @@ import bgimg1 from "../assets/image/Alpha Community.png";
 import bgimg2 from "../assets/image/banner4.png";
 import bgimg3 from "../assets/image/Banner2.png";
 import bgimg4 from "../assets/image/banner1.png";
+import bgimg5 from "../assets/image/banner5.png";
 
 // Slide data
 const allSlides = [
@@ -21,6 +22,7 @@ const allSlides = [
     { image: bgimg2 },
     { image: bgimg3 },
     { image: bgimg4 },
+    { image: bgimg5 },
 
 ];
 

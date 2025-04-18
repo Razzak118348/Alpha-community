@@ -12,15 +12,15 @@ const Expenditure = () => {
                 </div>
                 <div className="flex justify-between border-b border-gray-600 pb-2">
                     <span>SOUND & LIGHT</span>
-                    <span className="text-green-400">60,000 BDT</span>
+                    <span className="text-green-400">70,000 BDT</span>
                 </div>
                 <div className="flex justify-between border-b border-gray-600 pb-2">
                     <span>DECORATION (STAGE & SECURITY)</span>
-                    <span className="text-green-400">50,000 BDT</span>
+                    <span className="text-green-400">60,000 BDT</span>
                 </div>
                 <div className="flex justify-between border-b border-gray-600 pb-2">
                     <span>LED BACKDROP</span>
-                    <span className="text-green-400">30,000 BDT</span>
+                    <span className="text-green-400">50,000 BDT</span>
                 </div>
                 <div className="flex justify-between border-b border-gray-600 pb-2">
                     <span>BANNER & POSTER</span>
@@ -33,7 +33,7 @@ const Expenditure = () => {
 
                 <div className="flex justify-between border-t border-gray-500 pt-4 mt-6 text-xl font-bold">
                     <span>Total</span>
-                    <span className="text-red-500">4,15,000 BDT</span>
+                    <span className="text-red-500">4,55,000 BDT</span>
                 </div>
             </div>
         </div>
