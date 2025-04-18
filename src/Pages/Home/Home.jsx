@@ -19,7 +19,7 @@ const Home = () => {
     return (
         <div
             style={{ backgroundImage: `url(${bgimg2})` }}
-            className='w-full mb-0 pb-3 h-full bg-cover bg-no-repeat bg-center'
+            className="w-full overflow-x-hidden mb-0 pb-3 h-full bg-cover bg-no-repeat bg-center"
         >
             <Banner />
             <div>
