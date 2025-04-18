@@ -9,6 +9,11 @@ const Contact = () => {
     }, []);
 
     const allMembers = useLoaderData();
+    console.log("allMembers", allMembers);
+
+    if (!Array.isArray(allMembers)) {
+        return <div className="text-white pt-20 text-center">No member data found.</div>;
+    }
 
     return (
         <div className="bg-black min-h-screen pt-20 px-4 flex flex-col items-center ">

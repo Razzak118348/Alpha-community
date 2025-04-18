@@ -1,7 +1,7 @@
 import React from 'react';
 
 import JourneyImg from "../assets/image/ourJourney.jpg"
-import JourneyImg2 from "../assets/image/recentPerformance10.jpg"
+import JourneyImg2 from "../../public/assets/image/recentPerformance10.jpg"
 
 const Journey = () => {
     return (

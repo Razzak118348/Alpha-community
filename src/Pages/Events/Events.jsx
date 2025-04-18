@@ -2,6 +2,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
+
 const Events = () => {
     useEffect(() => {
         AOS.init({
@@ -32,7 +33,7 @@ const Events = () => {
                     ].map((img, index) => (
                         <img
                             key={index}
-                            src={`/src/assets/image/${img}`}
+                            src={`/assets/image/${img}`}
                             alt={`Performance ${index + 1}`}
                             className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                             data-aos="zoom-in"
@@ -54,7 +55,7 @@ const Events = () => {
                     ].map((img, index) => (
                         <img
                             key={index}
-                            src={`/src/assets/image/${img}`}
+                            src={`/assets/image/${img}`}
                             alt={`Event Madrasha ${index + 1}`}
                             className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                             data-aos="fade-up"

@@ -13,12 +13,12 @@ useEffect(() => {
         <div
         className="mt-16 text-justify bg-cover bg-center bg-no-repeat relative text-white py-20 px-4 md:px-16"
         style={{
-            backgroundImage: "url('/src/assets/image/background.jpg')",
+            backgroundImage: "url('/assets/image/background.jpg')",
         }}
         >
             <div className="max-w-6xl mx-auto">
                 <img
-                    src="/src/assets/image/allComunity.jpg"
+                    src="/assets/image/allComunity.jpg"
                     alt="Alpha Community"
                     className="w-full rounded-xl shadow-lg border border-purple-500 hover:scale-105 transition-transform duration-700"
                     data-aos="zoom-in"
