@@ -12,7 +12,7 @@ const Contact = () => {
     console.log("allMembers", allMembers);
 
     if (!Array.isArray(allMembers)) {
-        return <div className="text-white pt-20 text-center">No member data found.</div>;
+        return <div className=" pt-20 text-center">No member data found.</div>;
     }
 
     return (
