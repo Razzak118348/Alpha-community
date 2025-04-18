@@ -25,7 +25,8 @@ const router = createBrowserRouter([
             },
             {
                 path:'/contact',
-                element: <Contact></Contact>
+                element: <Contact></Contact>,
+                loader: () => fetch('/src/assets/contact.json') // Example API endpoint
             }
         ]
 
