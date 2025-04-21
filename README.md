@@ -1,5 +1,7 @@
 # 🎸 Alpha Community - Rock Music Brand Website
 
+### Live link : [Alpha Community](https://loquacious-caramel-8a51e9.netlify.app/)
+
 This is a custom-designed, responsive website for **Alpha Community**, a bold and energetic rock music brand. The website captures the essence of rock culture with a striking homepage background, event highlights, and an engaging user interface.
 
 ---
@@ -34,9 +36,9 @@ This is a custom-designed, responsive website for **Alpha Community**, a bold an
 | Technology     | Description                      |
 |----------------|----------------------------------|
 | ReactJS        | Frontend library (SPA)           |
-| React Router   | For routing   |
+| React Router   | For routing                      |
 | TailwindCSS    | Utility-first responsive CSS     |
-| Vite     | Frontend bundler & dev server    |
+| Vite           | Frontend bundler & dev server    |
 | Git & GitHub   | Version control                  |
 
 ---
